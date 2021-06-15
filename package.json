@@ -18,8 +18,6 @@
     "yargs": "^16.2.0"
   },
   "bin": {
-    "happynode-build": "./lib/scripts/build.js",
-    "happynode-serve": "./lib/scripts/serve.js",
-    "happynode-dev": "./lib/scripts/dev.sh"
+    "happynode": "./lib/index.js"
   }
 }
