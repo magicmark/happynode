@@ -1,0 +1,25 @@
+{
+  "name": "happynode",
+  "version": "0.0.1",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/node": "^7.13.12",
+    "@babel/preset-env": "^7.13.12",
+    "@babel/preset-typescript": "^7.13.0",
+    "@types/node": "^14.14.35",
+    "chalk": "^4.1.0",
+    "concurrently": "^6.0.0",
+    "execa": "^5.0.0",
+    "find-up": "^5.0.0",
+    "nodemon": "^2.0.7",
+    "npm-which": "^3.0.1",
+    "yargs": "^16.2.0"
+  },
+  "bin": {
+    "happynode-build": "./lib/scripts/build.js",
+    "happynode-serve": "./lib/scripts/serve.js",
+    "happynode-dev": "./lib/scripts/dev.sh"
+  }
+}

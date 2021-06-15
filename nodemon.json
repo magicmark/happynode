@@ -1,0 +1,5 @@
+{
+    "watch": ["build"],
+    "delay": 2000,
+    "signal": "SIGINT"
+}
